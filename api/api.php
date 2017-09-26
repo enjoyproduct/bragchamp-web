@@ -1891,10 +1891,10 @@ function get_challenge($post_id, $user_id, $conn) {
 
 		$data = array();
 		while ($row = $result->fetch_assoc()) {
-			$row['like_count'] = get_like_count($post_id, "challenge", 0, $conn);
-			$row['trash_count'] = get_like_count($post_id, "challenge", 1, $conn);
-			$row['comment_count'] = get_comment_count($post_id, "challenge", $conn);
-			$row['like_status'] = get_like_status($user_id, $post_id, "challenge", $conn);
+			$row['like_count'] = get_like_count($row['id'], "challenge", 0, $conn);
+			$row['trash_count'] = get_like_count($row['id'], "challenge", 1, $conn);
+			$row['comment_count'] = get_comment_count($row['id'], "challenge", $conn);
+			$row['like_status'] = get_like_status($user_id, $row['id'], "challenge", $conn);
 			$data[] = $row;
 		}
 		$response["data"] = $data;

@@ -327,11 +327,12 @@ CREATE TABLE IF NOT EXISTS `challenge_like` (
   `ch_id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
   `created_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `like_status` int(1) DEFAULT '0',
+  `like_status` int(1) DEFAULT '0', --- 0: like, 1: dislike
   PRIMARY KEY (`id`),
   KEY `challenge_id` (`ch_id`),
   KEY `user_id` (`user_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=143 ;
+
 
 --
 -- Dumping data for table `challenge_like`

@@ -1,0 +1,362 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Bragchamp",
+		"_postman_id": "8f3ac5f1-f140-6abb-1f6e-8e85e375aa93",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Delete message",
+			"request": {
+				"url": "https://bragchamp.com/api/api.php",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "authkey",
+							"value": "Xc5fQ2ePGIPe6GP69dAr2TI1H",
+							"type": "text"
+						},
+						{
+							"key": "action",
+							"value": "delete_message",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "53",
+							"type": "text"
+						},
+						{
+							"key": "message_id",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Challenge Comment",
+			"request": {
+				"url": "https://bragchamp.com/api/api.php",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "authkey",
+							"value": "tQqsXmQE94w8JNh9YpVB4lq49",
+							"type": "text"
+						},
+						{
+							"key": "action",
+							"value": "challenge_comment",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "19",
+							"type": "text"
+						},
+						{
+							"key": "challenge_id",
+							"value": "28",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "zbsjsjs",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Video",
+			"request": {
+				"url": "https://bragchamp.com/api/api.php",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "authkey",
+							"value": "5iocR5pbYM134p4Qeq0cIaK5q",
+							"type": "text"
+						},
+						{
+							"key": "action",
+							"value": "delete_video",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "19",
+							"type": "text"
+						},
+						{
+							"key": "post_id",
+							"value": "27",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Comment Post",
+			"request": {
+				"url": "https://bragchamp.com/api/api.php",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "action",
+							"value": "comment",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "authkey",
+							"value": "twnCwFfobtcPXaiuUZbaUGaEf",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "hes posts good",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "26",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "post_id",
+							"value": "19",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Video",
+			"request": {
+				"url": "https://bragchamp.com/api/api.php",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "action",
+							"value": "get_video",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "authkey",
+							"value": "PMC6Xj3PasOXcPauMecUCVvWQ",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "19",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "post_id",
+							"value": "570",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Challenge Video",
+			"request": {
+				"url": "https://bragchamp.com/api/api.php",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "action",
+							"value": "get_challenge",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "authkey",
+							"value": "PMC6Xj3PasOXcPauMecUCVvWQ",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "19",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "post_id",
+							"value": "570",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Info",
+			"request": {
+				"url": "https://bragchamp.com/api/api.php",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "action",
+							"value": "get_userinfo",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "authkey",
+							"value": "PMC6Xj3PasOXcPauMecUCVvWQ",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "19",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "post_id",
+							"value": "19",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Dislike Video",
+			"request": {
+				"url": "https://bragchamp.com/api/api.php",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "action",
+							"value": "dislikevideo",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "authkey",
+							"value": "rfMn05APU5RVW59DC9goY9Ri7",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "21",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "post_id",
+							"value": "570",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "View Video",
+			"request": {
+				"url": "https://bragchamp.com/api/api.php",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "action",
+							"value": "viewvideo",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "authkey",
+							"value": "rfMn05APU5RVW59DC9goY9Ri7",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "21",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "post_id",
+							"value": "570",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
